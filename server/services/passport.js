@@ -32,6 +32,7 @@ passport.use(
 			// route url user will be sent to after granting authorization
 			callbackURL: '/auth/google/callback',
 			userProfileURL: 'https://www.googleapis.com/oauth2/v3/userinfo',
+			proxy: true,
 		},
 		// callback function for
 		// app.get('/auth/google/callback', passport.authenticate('google'));
