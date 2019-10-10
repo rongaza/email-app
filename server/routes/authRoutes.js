@@ -1,5 +1,4 @@
 const passport = require('passport');
-var proxy = require('http-proxy-middleware');
 
 // export routes to index.js file
 module.exports = app => {
